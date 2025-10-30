@@ -5,19 +5,20 @@ package filemanager.service;
  * Replace with a full implementation if you have a richer observer system.
  */
 public final class FileEventNotifier {
-    private static final FileEventNotifier INSTANCE = new FileEventNotifier();
+	private static final FileEventNotifier INSTANCE = new FileEventNotifier();
 
-    private FileEventNotifier() {
-    }
+	private FileEventNotifier() {
+	}
 
-    public static FileEventNotifier getInstance() {
-        return INSTANCE;
-    }
+	public static FileEventNotifier getInstance() {
+		return INSTANCE;
+	}
 
-    /**
-     * Notify observers of an event. This minimal stub simply prints the message.
-     */
-    public void notifyObservers(String message) {
-        System.out.println("[FileEvent] " + message);
-    }
+	/**
+	 * Notify observers of an event. This minimal stub simply prints the message.
+	 */
+	public void notifyObservers(String message) {
+		System.out.println("[FileEvent] " + message);
+	}
 }
+

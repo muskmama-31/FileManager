@@ -1,4 +1,4 @@
-package com.example.FILEIO;
+package filemanager.Fileio;
 
 import java.io.File;
 import java.io.FileInputStream;
